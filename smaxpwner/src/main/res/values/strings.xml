@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmaxPwner</string>
+    <string name="title_section1">Ataque Remoto</string>
+    <string name="title_section2">Ataque Local</string>
+    <string name="title_section3">Parametros</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanEmaxLabel">Buscar Emax Srv</string>
+    <string name="scanEmaxButton">Buscar</string>
+    <string name="nEstLabel">Numero de Estacion</string>
+    <string name="remoteNumEstscanButton">Probar</string>
+
+</resources>
