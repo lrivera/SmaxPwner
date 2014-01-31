@@ -177,6 +177,21 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             View rootView = inflater.inflate(R.layout.remote, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_remote);
             textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            Button button = (Button) findViewById(R.id.button);
+ 
+			button.setOnClickListener(new OnClickListener() {
+	 
+				@Override
+				public void onClick(View arg0) {
+	 
+				  Toast.makeText(getApplicationContext(), "Tadeo Puto", duration).show();
+	 
+				}
+	 
+			});
+
+
             return rootView;
         }
     }
